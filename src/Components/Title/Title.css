@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title-cont{
+  text-align: center;
+  text-transform: uppercase;
+  color: #212EA0;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 70px 0 30px;
+  /* border:2px solid red; */
+
+  & h2{
+    font-size: 32px;
+    color: #000f3b;
+    margin-top: 5px;
+    text-transform: none;
+  }
+}
