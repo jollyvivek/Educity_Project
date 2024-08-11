@@ -123,14 +123,38 @@
 
 @media (max-width:425px) {
   .testimonial{
-    /* border: 2px solid black;  */
-    /* padding: 0 10px; */
 
     & .slider ul li .slide{
-      /* border: 2px solid red; */
+
       width: 100%;
       padding: 10px 15px;
     }
   }
+
+  .next-btn,.back-btn{
+    width: 100%;
+    max-width: 1.8em !important;
+  }
   
 }
+
+
+@media (max-width:375px) {
+  .testimonial{
+   width: 100%;
+  }
+
+  .slider ul{
+    padding: unset;
+  }
+
+  .slider .slide{
+    padding: 10px !important;
+  }
+}
+
+/* @media (max-width:320px) {
+  .testimonial{
+    border: 2px solid red;
+  }
+} */

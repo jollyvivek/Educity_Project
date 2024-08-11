@@ -61,3 +61,13 @@
     }
   }
 }
+
+@media (max-width:425px) {
+  .hero{
+  background-size: contain;
+  }
+
+  .hero button{
+    padding:0.5em 2em;
+  }
+}
