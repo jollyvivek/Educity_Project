@@ -38,7 +38,7 @@
   .hero{
     & .hero-info{
     & h3{
-      
+
       font-size: 40px;
     }
     }
@@ -65,9 +65,18 @@
 @media (max-width:425px) {
   .hero{
   background-size: contain;
+  & .hero-info{
+    & h3{
+      font-size: 25px;
+      margin: 0;
+    }
+    & p{
+      font-size: 12px;
+    }
+  }
   }
 
   .hero button{
-    padding:0.5em 2em;
+    padding:0.3em 1em;
   }
 }

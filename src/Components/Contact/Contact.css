@@ -94,3 +94,25 @@
     padding: 20px;
   }
 }
+
+@media (max-width:576px) {
+  
+ form .dark-btn{
+    margin: 0 auto !important;
+    margin-top:1em !important ;
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width:425px) {
+  form .dark-btn{
+    font-size: 12px;
+
+    & img{
+      display: none;
+    }
+  }
+}
